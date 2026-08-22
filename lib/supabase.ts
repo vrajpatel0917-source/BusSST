@@ -13,3 +13,15 @@ export type BusSlot = {
   status: string;
   created_at: string;
 };
+
+export type Student = {
+  id: string;
+  auth_id: string;
+  name: string;
+  email: string;
+  roll_number: string;
+  hostel: string;
+  created_at: string;
+};
+
+export type UserRole = 'admin' | 'student';

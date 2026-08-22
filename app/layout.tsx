@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'SST Transport Admin',
-  description: 'Admin dashboard for managing SST college bus transportation.',
+  title: 'SST Transport Portal',
+  description: 'College bus transport management for admin and students.',
   openGraph: {
     images: [
       {
